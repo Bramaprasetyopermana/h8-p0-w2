@@ -24,29 +24,25 @@
 // 2 - I will become fullstack developer
 
 console.log('======>LOOPING PERTAMA WHILE<=======');
-var A = 1;
+var A = 2;
 while (A <= 20) {
 	console.log(A + ' - I Love coding');
-	A++;
+	A+=2;
 }
 console.log('=======> LOOPING KEDUA WHILE<=======');
 var B = 20;
-while (B >= 1) {
+while (B >= 2) {
 	console.log(B + ' - I Will become fullstack developer');
-	B--;
+	B-=2;
 }
 
 console.log('======> LOOPING PERTAMA FOR<=======');
-var A = 1;
 for (var i = 1; i <= 20; i++) {
-	console.log(A + ' - I Love coding');
-	A++;
+	console.log(i + ' - I Love coding');
 }
 console.log('=======> LOOPING KEDUA FOR<=======');
-var B = 20;
 for (var i = 20; i >= 1; i--) {
-	console.log(B + ' - I Will become fullstack developer');
-	B--;
+	console.log(i + ' - I Will become fullstack developer');
 }
 
 // Buatlah sebuah perulangan 1 - 100 dengan pertambahan counter sebanyak 1
@@ -58,37 +54,31 @@ for (var i = 20; i >= 1; i--) {
 // Apabila bukan kelipatan yang ditentukan tidak perlu menuliskan apa-apa
 // Apabila angka counter adalah kelipatan 3 dengan pertambahan 2, kelipatan 6 dengan pertambahan 5, dan kelipatan 10 dengan pertambahan 9, tuliskan:
 // "3 kelipatan 3" dan seterusnya.
+
 console.log('======>GANJIL/GENAP<======')
-var A = 1;
 for (var i = 1; i <= 100; i++) {
 	if (i % 2 !== 0) {
-		console.log(A + ' - bilangan ganjil');
+		console.log(i + ' - bilangan ganjil');
 	} else {
-		console.log(A + ' - bilangan genap');
+		console.log(i + ' - bilangan genap');
 	}
-	A++;
 }
 console.log('======>KELIPATAN 3<=======')
-var A = 1;
 for (var i = 1; i <= 100; i++) {
 	if (i % 3 === 0) {
-		console.log(A + ' kelipatan 3');
+		console.log(i + ' kelipatan 3');
 	}
-	A++;
 }
+
 console.log('======>KELIPATAN 6<=====')
-var A = 1;
 for (var i = 1; i <= 100; i++) {
 	if (i % 6 === 0) {
-		console.log(A + ' kelipatan 6');
+		console.log(i + ' kelipatan 6');
 	}
-	A++;
 }
 console.log('=====>KELIPATAN 10<=======')
-var A = 1;
 for (var i = 1; i <= 100; i++) {
 	if (i % 10 === 0) {
-		console.log(A + ' kelipatan 10');
+		console.log(i + ' kelipatan 10');
 	}
-	A++;
 }
